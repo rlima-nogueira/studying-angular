@@ -3,12 +3,18 @@
     bottom: 0;
 
     display: flex;
+    justify-content: flex-end;
     
 }
 
 .footer span{
-    margin: 12px;
-    font-size: 1.1rem;
     font-weight: 400;
+    font-size: 0.9rem;
 }
+
+
+.footer span i{
+    font-size: 0.9rem;
+}
+
 
