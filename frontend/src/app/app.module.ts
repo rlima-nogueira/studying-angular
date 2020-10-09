@@ -28,6 +28,7 @@ import { ProductCreateComponent } from './components/product/product-create/prod
  import { HttpClientModule } from '@angular/common/http';
 
  import { FormsModule } from '@angular/forms';
+import { ProductReadComponent } from './components/product/product-read/product-read.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { ProductCreateComponent } from './components/product/product-create/prod
     NavComponent,
     HomeComponent,
     ProductCrudComponent,
-    ProductCreateComponent
+    ProductCreateComponent,
+    ProductReadComponent
   ],
   imports: [
     BrowserModule,
