@@ -16,8 +16,8 @@
       "price": 1500
     },
     {
-      "name": "",
-      "price": null,
+      "name": "Produto Alterado",
+      "price": "5.00",
       "id": 4
     },
     {
