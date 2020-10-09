@@ -29,6 +29,11 @@
       "name": "Geladeira",
       "price": "1990.44",
       "id": 6
+    },
+    {
+      "name": "Cadastro teste",
+      "price": "19.50",
+      "id": 7
     }
   ]
 }
