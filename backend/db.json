@@ -19,6 +19,16 @@
       "name": "",
       "price": null,
       "id": 4
+    },
+    {
+      "name": "Produto cadastrado pelo form",
+      "price": "100.00",
+      "id": 5
+    },
+    {
+      "name": "Geladeira",
+      "price": "1990.44",
+      "id": 6
     }
   ]
 }
