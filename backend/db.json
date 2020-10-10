@@ -1,13 +1,8 @@
 {
   "products": [
     {
-      "id": 3,
-      "name": "Samsung S20+",
-      "price": "2750.00"
-    },
-    {
       "name": "Produto Alterado",
-      "price": "15.00",
+      "price": "18",
       "id": 4
     },
     {
