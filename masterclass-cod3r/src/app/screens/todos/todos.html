@@ -1,5 +1,14 @@
+
 <app-title
     title="Lista de Tarefas"
     subtitle="Exemplo de uma lista de tarefas"
     description="Bem-vindo à lista de tarefas!">
 </app-title>
+
+<div class="flex flex-col gap-4 mt-4">
+  @for(item of todos.items(); track item.id) {
+    <div>
+      {{item.title}}
+    </div>
+  }
+</div>
