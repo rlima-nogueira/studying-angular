@@ -17,8 +17,7 @@ export class Todos {
     event.preventDefault();
     const input = event.target as HTMLInputElement;
     const title = input.value.trim();
-    if (title) return;
-
+    if (!title) return;
 
     this.todos.add(title);
     input.value = '';
