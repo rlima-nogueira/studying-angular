@@ -5,3 +5,23 @@ body {
   background-color: #000;
   color: #fff
 }
+
+@layer components {
+  .btn {
+    @apply inline-flex justify-center items-center;
+    @apply px-4 py-2 rounded-lg;
+  }
+
+  .btn-primary {
+    @apply bg-purple-500 hover:bg-blue-600 text-white ;
+  }
+
+
+  .btn-secondary {
+    @apply bg-zinc-500 hover:bg-gray-600 text-white;
+  }
+
+  .btn-danger {
+    @apply bg-red-500 hover:bg-red-600 text-white;
+  }
+}

@@ -1,5 +1,19 @@
 <app-title
     title="Contador"
-    subtitle="Exemplo de contador"
-    description="Bem-vindo ao contador!">
+    subtitle="Exemplo de contador">
 </app-title>
+
+<div class="flex flex-col gap-4">
+  <span class="text-5xl font-black"> {{ count() }} </span>
+  <div class="flex gap-3">
+    <button class="btn btn-primary" (click)="increment()">
+      Incrementar
+    </button>
+    <button class="btn btn-secondary" (click)="decrement()">
+      Decrementar
+    </button>
+    <button class="btn btn-danger" (click)="reset()">
+      Resetar
+    </button>
+  </div>
+</div>
